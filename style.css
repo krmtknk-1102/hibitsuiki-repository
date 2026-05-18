@@ -15,7 +15,67 @@ Version:    1.1.3
 ************************************/
 /*必要ならばここにコードを書く*/
 
+:root {
+  --cocoon-basic-border-radius: 12px;
+  --cocoon-badge-border-radius: 24px;
+}
 
+/* ヘッダー */
+.site-name-text {
+  font-size: 2rem;
+  font-weight: bold;
+  letter-spacing: 1.2rem;
+}
+
+.tagline {
+  font-size: 1.3rem;
+  font-weight: bold;
+  letter-spacing: 1.5rem;
+}
+
+/* サイドバー共通 */
+.sidebar h2, .sidebar h3 {
+  text-align: center;
+}
+
+.toc-widget-box {
+  border-top: 3px dotted #6b9e94;
+  border-bottom: 3px dotted #6b9e94;
+}
+
+/* プロフィールウィジェット */
+.author-widget-name {
+  color: #5c8c7a;
+  font-weight: bold;
+}
+
+/* 検索ウィジェット */
+.wp-block-search__button {
+  border: none;
+  background-color: #e8b89a;
+  color: #7a4830;
+  font-weight: bold;
+}
+
+.wp-block-search__label {
+  display: block;
+  color: #5c8c7a;
+  font-weight: bold;
+}
+
+/* カテゴリーバッチ */
+.cat-link {
+  padding: 4px 12px;
+  background-color: #e8b89a;
+  color: #7a4830;
+  font-weight: bold;
+}
+
+/* SNSシェア */
+.sns-buttons a {
+  font-weight: bold;
+  height: 64px;
+}
 
 
 /************************************
