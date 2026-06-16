@@ -41,9 +41,17 @@ Version:    1.1.3
   letter-spacing: 1.5rem;
 }
 
+/* ナビゲーションメニュー */
+.item-label {
+  font-weight: bold;
+}
+
 /* サイドバー共通 */
 .sidebar h2, .sidebar h3 {
   text-align: center;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  border-left: 12px solid #f0f5f3;
 }
 
 .toc-widget-box {
@@ -109,7 +117,16 @@ article,
 
 /*834px以下*/
 @media screen and (max-width: 834px){
-  /*必要ならばここにコードを書く*/
+  /* ヘッダー */
+  .tagline {
+    font-size: 0.8rem;
+    font-weight: bold;
+    letter-spacing: 0.4rem;
+  }
+
+  .header-site-logo-image {
+    width: 50vw;
+  }
 }
 
 /*480px以下*/
